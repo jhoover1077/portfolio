@@ -1,0 +1,53 @@
+:root {
+    --color1: #013F5E;
+    --color2: lightblue;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header { 
+    padding: 20px 35px;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-size: cover;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--color1);
+    top: 0;
+    background-color: var(--color2);
+    padding-left: 2em;
+}
+
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: var(--color2);
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+background-image: url("./assets/images/hero-bg.jpg");
+background-size: cover;
+background-position: center;
+}
