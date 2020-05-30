@@ -47,7 +47,28 @@ header nav ul li a {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-background-image: url("./assets/images/hero-bg.jpg");
-background-size: cover;
-background-position: center;
+    background-image: url("./assets/images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+.subtitle h3 {
+    background-color: var(--color2);
+    color: var(--color1);
+    margin: 10em 1em 1em 35em;
+    position: relative;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+}
+.about-me {
+    border: 5px solid var(--color1);
+    height: 10em;
+    width: 30%;
+    border-style: hidden solid hidden hidden;
+    margin-top: 5em;
+}
+.about-me h2 {
+    text-align: right;
+    font-size: 36px;
+    padding-right: 0.5em;
 }
