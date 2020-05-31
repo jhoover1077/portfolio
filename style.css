@@ -112,9 +112,10 @@ h2#work {
     padding-right: 5px;
 }
 
-.container3 p {
+.container3 ul li {
     flex-basis: 50%;
     padding-left: 5px;
+    list-style: none;
 }
 .wrapper {
     display: grid;
