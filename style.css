@@ -83,6 +83,7 @@ header nav ul li a {
 }
 #work {
     text-align:right;
+    height: 200px; 
 }
 .container2 {
     display: flex;
@@ -92,7 +93,6 @@ header nav ul li a {
 }
 .container2 h2 {
     border-right: 5px solid var(--color1);
-    padding-right: 5px;
 }
 
 .container2 p {
