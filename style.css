@@ -2,6 +2,10 @@
     --color1: #013F5E;
     --color2: lightblue;
 }
+.body {
+    width: 90%;
+    max-width: 1080px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -44,21 +48,18 @@ header nav ul li a {
 }
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    align-items: flex-start;
     background-image: url("./assets/images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
-    height: auto;
+    height: 500px;
     width: 100%;
 }
 .subtitle h3 {
     background-color: var(--color2);
     color: var(--color1);
-    margin: 10em 1em 1em 35em;
-    position: relative;
-    padding: 0.3em 0.3em 0.3em 0.3em;
+    margin-top: 10px;
 }
 .container {
     display: flex;
@@ -146,7 +147,7 @@ h2#work {
    
 }
 .box3{
-    background: url(./assets/images/IHT.jpg) no-repeat center/cover;
+    background: url(./assets/images/kipcan.jpg) no-repeat center/cover;
    
 }
 .box4{
