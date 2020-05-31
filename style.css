@@ -68,10 +68,13 @@ header nav ul li a {
 }
 .container h2 {
     border-right: 5px solid var(--color1);
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .container p {
+    flex-basis: 50%;
+}
+.container .wrapper {
     flex-basis: 50%;
     padding-left: 5px;
 }
