@@ -70,6 +70,7 @@ header nav ul li a {
     border-right: 5px solid var(--color1);
     padding-right: 5px;
 }
+
 .container p {
     flex-basis: 50%;
     padding-left: 5px;
@@ -77,12 +78,124 @@ header nav ul li a {
 #about-me {
     text-align: right;
 }
+#contact-me {
+    text-align:right;
+}
+#work {
+    text-align:right;
+}
 .container2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 31px;
 }
+.container2 h2 {
+    border-right: 5px solid var(--color1);
+    padding-right: 5px;
+}
+
+.container2 p {
+    flex-basis: 50%;
+    padding-left: 5px;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 31px;
+}
+.container3 h2 {
+    border-right: 5px solid var(--color1);
+    padding-right: 5px;
+}
+
+.container3 p {
+    flex-basis: 50%;
+    padding-left: 5px;
+}
 .wrapper {
     display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    background-color:#ffffff;
+    grid-row-gap: 5px; 
+    grid-template-rows: repeat(12, 1fr);
+}
+
+  .box::before {
+    position: absolute;
+    background-color: orange;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    transition: opacity 0.3s ease;
+  }
+  .box:hover::before {
+    transition: opacity 0.3s ease;
+    opacity: 0.5;
+  }
+.box {
+    display: flex;
+    height: 200px;
+    min-width: 200px; 
+    grid-column: span 4;
+    grid-row: span 4;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid black;
+}
+.box:nth-child(1){
+    grid-column: span 8;
+    grid-row-start:  span 4;
+    grid-row-end: span 8;
+}
+.box1{
+    background: url(./assets/images/IHT.jpg) no-repeat center/cover;
+
+}
+.box2{
+    background: url(./assets/images/gfox.jpg) no-repeat center/cover;
+   
+}
+.box3{
+    background: url(./assets/images/IHT.jpg) no-repeat center/cover;
+   
+}
+.box4{
+    background: url(./assets/images/IHT.jpg) no-repeat center/cover;
+    
+}
+.box5{
+    background: url(./assets/images/IHT.jpg) no-repeat center/cover;
+}
+/* Contact Me Section */
+#contact ul {
+    flex: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+  
+  #contact ul li a {
+    padding: 5px 10px;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+    transition: all .1s ease-in;
+  }
+  
+  #contact li:hover a {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    border: none;
+  }
+@media screen and (max-width: 600px) {
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
 }
