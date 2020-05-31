@@ -87,35 +87,12 @@ header nav ul li a {
 h2#work {
         height:200px;  
 }
-.container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 31px;
-}
-.container2 h2 {
-    border-right: 5px solid var(--color1);
-}
 
-.container2 p {
-    flex-basis: 50%;
-    padding-left: 5px;
-}
-.container3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 31px;
-}
-.container3 h2 {
-    border-right: 5px solid var(--color1);
-    padding-right: 5px;
-}
-
-.container3 ul li {
+.container ul li {
     flex-basis: 50%;
     padding-left: 5px;
     list-style: none;
+    display: inline;
 }
 .wrapper {
     display: grid;
@@ -155,7 +132,6 @@ h2#work {
     border: 1px solid black;
 }
     /* .box:nth-child(1){
-
     } */
 .box1{
     background: url(./assets/images/IHT.jpg) no-repeat center/cover;
