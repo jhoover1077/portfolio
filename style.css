@@ -83,7 +83,11 @@ header nav ul li a {
 }
 #work {
     text-align:right;
+<<<<<<< HEAD
     height: 200px; 
+=======
+    height: 200px;
+>>>>>>> develop
 }
 .container2 {
     display: flex;
