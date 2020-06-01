@@ -85,7 +85,19 @@ header nav ul li a:hover {
   grid-gap: 10px;
   padding-left: 15px;
 }
-
+#aboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:31px;
+}
+#aboutme h2 {
+  padding-right: 10px;
+  display: inline;
+}
+#aboutme p {
+  display: inline;
+}
 .heading {
   flex: 15%;
   padding-right: 10px;
@@ -138,10 +150,17 @@ header nav ul li a:hover {
 .box5{
   background: url(./assets/images/feelstate.jpg) no-repeat center/cover;
 }
-.grid-item:first-child {
-  grid-column: span 8;
-  grid-row: span 2;
+#work {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:31px;
 }
+#work h2 {
+  padding-right: 10px;
+  display: inline;
+}
+
 /* Contact Me Section */
 #contact-me {
   display: flex;
@@ -151,6 +170,7 @@ header nav ul li a:hover {
 }
 #contact-me h2 {
   padding-right: 10px;
+  display: inline;
 }
 #contact-me ul {
   flex-basis: 55%;
