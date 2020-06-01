@@ -71,41 +71,40 @@ header nav ul li a:hover {
   max-width: 1080px;
   margin: 0 auto;
 }
-
-.container ul li {
-  padding-left: 5px;
-  list-style: none;
-  display: inline;
-}
 .wrapper {
   flex: 85%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-auto-rows: 150px;   
   grid-gap: 15px;
-  padding-left: 10px;
 }
-
+.h2 {
+  text-align: right;
+}
+.h3 {
+  text-align:right;
+}
 #about-me {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top:31px;
-  float: left;
 }
-#about-me h2 {
-  padding-right: 5px;
-  display: inline;
+#work .wrapper {
+  flex-basis: 85%;
 }
+
 .heading {
-  flex: 15%;
+  flex: 10%;
   padding-right: 10px;
 }
 .text {
-  flex: 15%;
+  flex: 5%;
   padding-right: 10px;
 }
-
+.border {
+  border-right: 3px solid var(--color1);
+}
 .box::before {
   position: absolute;
   background-color: var(--color2);
@@ -123,7 +122,7 @@ header nav ul li a:hover {
 }
 .box {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     height: 100%;
     position: relative;
   }
@@ -156,9 +155,11 @@ header nav ul li a:hover {
   margin-top:31px;
 }
 #work h2 {
-  padding-right: 10px;
-  display: inline;
+  text-align: right;
+  height: 200px;
 }
+
+
 
 /* Contact Me Section */
 #contact-me {
@@ -172,7 +173,7 @@ header nav ul li a:hover {
   display: inline;
 }
 #contact-me ul {
-  flex-basis: 55%;
+  flex-basis: 85%;
   display: flex;
   justify-content: space-around;
   align-items: center;
