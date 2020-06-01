@@ -64,6 +64,7 @@ header nav ul li a:hover {
     background-color: var(--color2);
     color: var(--color1);
     margin-top: 20em;
+    margin-right: 5em;
 }
 .container {
     display: flex;
@@ -94,7 +95,6 @@ h2#work {
 }
 
 .container ul li {
-    flex-basis: 50%;
     padding-left: 5px;
     list-style: none;
     display: inline;
@@ -103,15 +103,15 @@ h2#work {
     display: grid;
     grid-auto-flow: dense;
     grid-column-gap: 5px;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     background-color:#ffffff;
     grid-row-gap: 5px; 
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
   .box::before {
     position: absolute;
-    background-color: orange;
+    background-color: var(--color2);
     opacity: 0;
     height: 100%;
     width: 100%;
@@ -128,8 +128,8 @@ h2#work {
     display: flex;
     /* height: 200px; */
     min-width: 205px; 
-    grid-column: span 4;
-    grid-row: span 4;
+    grid-column: span 2 ;
+    grid-row: span 2;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -139,8 +139,8 @@ h2#work {
     } */
 .box1{
     background: url(./assets/images/IHT.jpg) no-repeat center/cover;
-    grid-column: span 8;
-    grid-row:  span 8;
+    grid-column: span 4;
+    grid-row:  span 4;
 }
 .box2{
     background: url(./assets/images/gfox.jpg) no-repeat center/cover;
@@ -151,33 +151,48 @@ h2#work {
    
 }
 .box4{
-    background: url(./assets/images/IHT.jpg) no-repeat center/cover;
+    background: url(./assets/images/sincitysmash.jpg) no-repeat center/cover;
     
 }
 .box5{
-    background: url(./assets/images/IHT.jpg) no-repeat center/cover;
+    background: url(./assets/images/feelstate.jpg) no-repeat center/cover;
+}
+.grid-item:first-child {
+    grid-column: span 8;
+    grid-row: span 2;
 }
 /* Contact Me Section */
-#contact ul {
-    flex: 85%;
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:31px;
+}
+.contact-me h2 {
+    border-right: 5px solid var(--color1);
+    padding-right: 10px;
+}
+.contact-me ul {
+    flex-basis: 55%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap; 
+    list-style: none;
   }
   
-  #contact ul li a {
+  .contact-me ul li a {
     padding: 5px 10px;
     color: var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
     transition: all .1s ease-in;
   }
-  
-  #contact li:hover a {
+
+  .contact-me li:hover {
     color: var(--secondary-color);
     background: var(--primary-color);
-    border: none;
   }
+
 @media screen and (max-width: 600px) {
     body nav li a{
         text-align:left;
