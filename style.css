@@ -46,6 +46,10 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: var(--color2);
 }
+header nav ul li a:hover {
+    background: var(--color2);
+    color: var(--color1);
+}
 .hero {
     display: flex;
     justify-content: flex-end;
@@ -59,7 +63,7 @@ header nav ul li a {
 .subtitle h3 {
     background-color: var(--color2);
     color: var(--color1);
-    margin-top: 10px;
+    margin-top: 20em;
 }
 .container {
     display: flex;
@@ -75,10 +79,7 @@ header nav ul li a {
 .container p {
     flex-basis: 50%;
 }
-.container .wrapper {
-    flex-basis: 50%;
-    padding-left: 5px;
-}
+
 #about-me {
     text-align: right;
 }
@@ -101,7 +102,6 @@ h2#work {
 .wrapper {
     display: grid;
     grid-auto-flow: dense;
-
     grid-column-gap: 5px;
     grid-template-columns: repeat(12, 1fr);
     background-color:#ffffff;
@@ -179,5 +179,18 @@ h2#work {
     border: none;
   }
 @media screen and (max-width: 600px) {
+    body nav li a{
+        text-align:left;
+        position:relative;
+        left:120px;
+    }
+    
+    body a h1{
+        left:64px;
+        position:relative;
+    }
+    body .hero{
+        height:302px !important;
+    }    
     
 }
