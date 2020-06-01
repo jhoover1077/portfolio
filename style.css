@@ -192,5 +192,12 @@ h2#work {
     body .hero{
         height:302px !important;
     }    
-    
+    .subtitle h3{
+        top:-113.985px;
+        left:0px;
+        position:relative;
+    }  
+    body .container{
+        width:100%;
+    }      
 }
