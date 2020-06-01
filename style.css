@@ -72,7 +72,7 @@ header nav ul li a:hover {
   margin: 0 auto;
 }
 .wrapper {
-  flex: 85%;
+  flex: 95%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-auto-rows: 150px;   
@@ -90,16 +90,14 @@ header nav ul li a:hover {
   justify-content: center;
   margin-top:31px;
 }
-#work .wrapper {
-  flex-basis: 85%;
-}
+
 
 .heading {
   flex: 10%;
   padding-right: 10px;
 }
 .text {
-  flex: 5%;
+  flex: 10%;
   padding-right: 10px;
 }
 .border {
