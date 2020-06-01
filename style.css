@@ -129,11 +129,11 @@ header nav ul li a:hover {
     position: relative;
   }
  
-}
+
   /* .box:nth-child(1){
   } */
 .box1{
-  background: url(./assets/images/IHT.jpg) no-repeat center/cover;
+  background: url(./assets/images/IHT.png) no-repeat center/cover;
 }
 .box2{
   background: url(./assets/images/gfox.jpg) no-repeat center/cover;
