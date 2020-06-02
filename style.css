@@ -200,15 +200,14 @@ header nav ul li a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  body nav li a{
-      text-align:left;
-      position:relative;
-      left:120px;
+  body nav ul li a{
+    font-size: 10px;
+    text-align: center;
   }
   
   body a h1{
       left:64px;
-      position:relative;
+     
   }
   body .hero{
       height:302px !important;
