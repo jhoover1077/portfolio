@@ -7,7 +7,7 @@ Website to display Jack Hoover's Web Development
 * CSS
 
 ## Website
-https://lernantino.github.io/portfolio/
+https://jhoover1077.github.io/portfolio/
 
 ## Contribution
 Made with 🖤 by Jack Hoover
